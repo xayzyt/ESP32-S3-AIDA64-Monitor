@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #ifndef __WEATEHER_H
 #define __WEATEHER_H
 
@@ -10,3 +11,17 @@ typedef struct
 
 void weather_start(void);
 #endif
+=======
+#ifndef __WEATEHER_H
+#define __WEATEHER_H
+
+typedef struct 
+{
+    int high_temp;
+    int low_temp;
+    char code[4];
+}weather_data_pkt_t;
+
+void weather_start(void);
+#endif
+>>>>>>> 81fc6d11b1a3aa3674e1ca4f6c48bf0d832d09d3
