@@ -9,7 +9,11 @@
 ![FreeRTOS](https://img.shields.io/badge/FreeRTOS-173B6C?style=flat-square)
 ![LVGL](https://img.shields.io/badge/LVGL-343839?style=flat-square)
 
-> 演示素材待补：建议在此放置一张设备正面照片和一段 15–30 秒 GIF，展示开机、触摸切页、Web 配网及 AIDA64 数据刷新。
+## 演示视频
+
+[![ESP32-S3 AIDA64 Monitor 演示视频](docs/media/demo-cover.jpg)](docs/media/esp32-s3-monitor-demo.mp4)
+
+点击封面播放 [38 秒项目演示视频](docs/media/esp32-s3-monitor-demo.mp4)，内容包含触摸交互、监控页面和设备运行效果。公开版本已压缩为 720p H.264，并移除手机定位等拍摄元数据。
 
 ## 功能
 
@@ -106,7 +110,7 @@ idf.py -p COMx flash monitor
 - 项目按指定 ESP32-S3 屏幕开发板的引脚和外设设计，其他硬件需要修改 BSP
 - AIDA64 字段解析依赖当前 RemoteSensor 输出格式
 - 仓库尚未记录统一测试条件下的刷新率、启动时间、内存占用和断线重连耗时，因此 README 不提供未经测量的性能数据
-- 成品照片、演示视频和可复现实测记录仍待补充
+- 可复现实测记录仍待补充
 
 ## 目录
 
